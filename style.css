@@ -1,0 +1,257 @@
+body {
+  background-image: url('https://watermark.lovepik.com/photo/40168/3768.jpg_wh1200.jpg');
+  height: 2600px;
+  width: 1200px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+  
+* {
+  text-align: center;
+}
+    
+
+.h1{
+  font-size: 500px;
+  padding: 60px;
+  text-align: center;
+  font-size: 100px;
+}
+
+.triangle-topleft {
+  width: 0;
+  height: 0;
+  border-top: 400px solid rgb(250, 177, 177);
+  border-right: 900px solid transparent;
+  opacity: 0.6;
+}
+
+.triangle-topright {
+  position:absolute;
+  width:100px;
+  padding:10px;
+  border-top: 300px solid purple;
+  border-left: 700px solid transparent;
+  opacity: 0.5;
+  right: 0px;
+}
+
+.logo{
+  position: absolute;
+  width:1px;
+  top: 3px;
+  left: 1px;
+  height: auto;
+  opacity: 0.8;
+}
+
+.gif{
+  position: absolute;
+  width:10px;
+  top: 180px;
+  left: 150px;
+  height: auto;
+  opacity: 0.7;
+}
+
+
+.NavBar {
+  overflow: hidden;
+  background-color: #6a4a8f;
+  width: 1340px
+  }
+  
+  .NavBar a {
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 8px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .NavBar a:hover {
+    background-color: #ddd;
+    color: rgb(0, 0, 0);
+  }
+  
+  .NavBar a.active {
+    background-color: #b63752;
+    color: white;
+  }
+
+  .image1{
+    position: absolute;
+    top: 40px; 
+    right: 10px;
+    height: 10px;
+  width: 45%;
+  opacity: 0.5;
+   }
+
+
+   
+   .image2 {
+    float: left;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+  }
+  
+  .price {
+    color: grey;
+    font-size: 22px;
+  }
+  
+  .cart button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: rgb(154, 238, 143);
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .cart button:hover {
+    opacity: 0.7;
+  }
+
+  .image3 {
+    float: right;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+  }
+  
+  .price1 {
+    color: rgb(97, 3, 3);
+    font-size: 22px;
+  }
+  
+  .cart button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: rgb(154, 238, 143);
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .cart button:hover {
+    opacity: 0.7;
+  }
+  .container {
+    float: left;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    background-color: #ddd;
+    opacity: 0.9;
+  }
+  .container img {
+    float: center;
+    margin-right: 20px;
+    border-radius: 60%;
+  }
+
+  .container2 {
+    float: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    background-color: #ddd;
+    opacity: 0.9;
+  }
+
+
+
+  .container2 img {
+    float: center;
+    margin-right: 20px;
+    border-radius: 60%;
+  }
+  
+  .footer{
+    overflow: hidden;
+    background-color: #f1a775;
+    width: 1340px;
+    height: 250px;
+    font-size: 17px;
+    font-variant-position: normal;
+    }
+
+    .fa {
+      padding: 20px;
+      font-size: 30px;
+      width: 50px;
+      text-align: center;
+      text-decoration: none;
+      margin: 5px 2px;
+    }
+    
+    .fa:hover {
+        opacity: 0.7;
+    }
+    .fa-facebook {
+      background: #3B5998;
+      color: white;
+    }
+    
+    .fa-twitter {
+      background: #55ACEE;
+      color: white;
+    }
+    
+    .fa-google {
+      background: #dd4b39;
+      color: white;
+    }
+    .fa-linkedin {
+      background: #007bb5;
+      color: white;
+    }
+    
+    .fa-youtube {
+      background: #bb0000;
+      color: white;
+    }
+    
+    .fa-instagram {
+      background: #125688;
+      color: white;
+    }
+    
+    .fa-pinterest {
+      background: #cb2027;
+      color: white;
+    }
+    
+    .fa-snapchat-ghost {
+      background: #fffc00;
+      color: white;
+      text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    }
+    
+    .logo{
+      position: absolute;
+      width:1px;
+      top: 3px;
+      left: 1px;
+      height: auto;
+      opacity: 0.8;
+    }
