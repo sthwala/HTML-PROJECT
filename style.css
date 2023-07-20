@@ -188,10 +188,9 @@ body {
   .footer{
     overflow: hidden;
     background-color: #f1a775;
-    width: 100%;
+    width: 1500px;
     height: 250px;
     font-size: 17px;
-    font-variant-position: normal;
     }
 
     .fa {
